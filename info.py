@@ -31,11 +31,11 @@ CODE = (environ.get('CODE', 'https://t.me/movies_updet'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'Liteshort.com'))
 STREAM_API = (environ.get('STREAM_API', '094cac42e1c39c257f8f1cd79faed60098fc83b2'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hindi_movie_uplod/36'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/movies_updet'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1807927334 7436687322').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002108939580').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002520793005').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1807927334').split()]
@@ -65,8 +65,8 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Your_Movie_Link_8')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Hindi_movie_uplod')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Hindi_movie_uplod/36')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_updet')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlod09/7')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Abhikumar7799')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002036849852'))
