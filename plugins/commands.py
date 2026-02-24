@@ -312,7 +312,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(10)
+        await asyncio.sleep(300)
         await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
         return
         
@@ -348,7 +348,7 @@ async def start(client, message):
                     ]
                 )
             )
-            await asyncio.sleep(10)
+            await asyncio.sleep(300)
             await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
             return
         
@@ -442,7 +442,7 @@ async def start(client, message):
                     ]
                 )
             )
-            await asyncio.sleep(10)
+            await asyncio.sleep(300)
             await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
             return
     user = message.from_user.id
